@@ -10,5 +10,15 @@ public class Main {
             Book book = (Book)it.next();
             System.out.println(book.getName());
         }
+        BookShelfArrayList bookshelf2 = new BookShelfArrayList();
+        bookshelf2.appendBook(new Book("Around the World in 80 Days"));
+        bookshelf2.appendBook(new Book("ABible"));
+        bookshelf2.appendBook(new Book("Cinderella"));
+        bookshelf2.appendBook(new Book("Daddy-Long-Legs"));
+        Iterator it2 = bookshelf2.iterator();
+        while(it2.hasNext()){
+            Book book = (Book)it2.next();
+            System.out.println(book.getName());
+        }
     }
 }
