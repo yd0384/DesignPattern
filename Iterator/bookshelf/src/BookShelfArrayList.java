@@ -1,6 +1,6 @@
 import java.util.List ;
 import java.util.ArrayList;
-public class BookShelfArrayList implements Aggregate {
+public class BookShelfArrayList implements Aggregate{
     private List<Book> books;
     public BookShelfArrayList(){
         books = new ArrayList<>();

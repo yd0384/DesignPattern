@@ -1,4 +1,4 @@
-public class BookShelfArrayListIterator implements Iterator {
+public class BookShelfArrayListIterator implements Iterator{
     private BookShelfArrayList bookShelf;
     private int index;
     public BookShelfArrayListIterator(BookShelfArrayList bookShelf){

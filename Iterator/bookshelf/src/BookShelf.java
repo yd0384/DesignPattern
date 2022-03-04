@@ -1,7 +1,7 @@
-public class BookShelf implements Aggregate {
+public class BookShelf implements Aggregate{
     private Book[] books;
     private int last = 0;
-    public BookShelf(int maxSize) {
+    public BookShelf(int maxSize){
         this.books = new Book[maxSize];
     }
     public Book getBookAt(int i){

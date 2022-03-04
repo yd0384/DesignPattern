@@ -1,10 +1,5 @@
-## Iterator 패턴
+## BookShelf
 
-무엇인가 많이 모여있는 것들을 순서대로 지정하면서 전체를 검색하는 처리를 실행하기 위한 것
-
-- `Aggregate` : 집합체를 나타내는 인터페이스, iterator를 가짐
-- `Iterator` : 요소를 하나씩 나열, 루프 변수와 같은 역할을 수행하는 인터페이스
-
-> 인터페이스를 만들고, ConcreteIterator, ConcreteAggregate를 구현해서 사용, `Concrete` : 구체적인 구현
-
-> 여러개의 Iterator를 용도에 따라 만들 수 있다.
+책징에 책들을 넣고 Iterator로 반복하면서 이름을 출력하는 프로그램
+`Array 구현` : 초기에 책장의 크기를 지정해야 하고 그 이상 책을 넣을 수 없음
+`ArrayList 구현` : 책장의 크기를 지정하지 않아도 되고 자동으로 그 크기를 늘릴 수 있음

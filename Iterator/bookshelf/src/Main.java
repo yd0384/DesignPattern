@@ -1,4 +1,4 @@
-public class Main {
+public class Main{
     public static void main(String[] args){
         BookShelf bookshelf = new BookShelf(4);
         bookshelf.appendBook(new Book("Around the World in 80 Days"));
