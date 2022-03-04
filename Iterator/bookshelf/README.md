@@ -1,18 +1,10 @@
-## Getting Started
+## Iterator 패턴
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+무엇인가 많이 모여있는 것들을 순서대로 지정하면서 전체를 검색하는 처리를 실행하기 위한 것
 
-## Folder Structure
+- `Aggregate` : 집합체를 나타내는 인터페이스, iterator를 가짐
+- `Iterator` : 요소를 하나씩 나열, 루프 변수와 같은 역할을 수행하는 인터페이스
 
-The workspace contains two folders by default, where:
+> 인터페이스를 만들고, ConcreteIterator, ConcreteAggregate를 구현해서 사용, `Concrete` : 구체적인 구현
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> 여러개의 Iterator를 용도에 따라 만들 수 있다.
